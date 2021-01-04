@@ -15,5 +15,9 @@ img:hover {
 .pvw-title:after {
   content: 'whatever it is you want to add';
 }
+{
   font-family: 'El Messiri', sans-     serif;
+}
+h1{
+font-family: 'Harmattan', sans-serif;
 }

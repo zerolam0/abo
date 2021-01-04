@@ -1,0 +1,37 @@
+input[type=text]{
+    width:30%;
+    border:2px solid #aaa;
+    border-radius:8px;
+    margin:8px 0;
+    outline:none;
+    padding:8px;
+    box-sizing:border-box;
+    transition:.3s;
+  }
+  
+  input[type=text]:focus{
+    border-color:dodgerBlue;
+    box-shadow:0 0 8px 0 dodgerBlue;
+  }
+.linePreloader{
+    width:200px;
+    height:4px;
+    background:linear-gradient(to right,dodgerBlue,dodgerBlue);
+    background-color:#ccc;
+    position:fixed;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    margin:auto;
+    border-radius:4px;
+    background-size:20%;
+    background-repeat:repeat-y;
+    background-position:-25% 0;
+    animation:scroll 1.2s ease-in-out infinite;
+  }
+  
+  @keyframes scroll{
+    50%{background-size:80%}
+    100%{background-position:125% 0;}
+

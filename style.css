@@ -1,0 +1,31 @@
+button {
+  border: none;
+  border-radius: 16px;
+  padding: 2px 34px;
+  font-size: 16px;
+  font-family: 'Ubuntu', sans-serif;
+  text-transform: uppercase;
+  cursor: pointer;
+  background-color: #2196f3;
+  box-shadow: 0 0 4px #999;
+  outline: none;
+  color: white;
+}
+
+.ripple {
+  background-position: center;
+  transition: background 0.8s;
+}
+
+.ripple:hover{
+  background-color: #47a7f5;
+  background-image: radial-gradient(circle,transparent 1%,#47a7f5 1%);
+  background-position: center;
+  background-size: 15000%;
+}
+
+.ripple:active{
+  transition: background 0s;
+  background-color: #6eb9f7;
+  background-size: 100%;
+}
